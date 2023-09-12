@@ -18,7 +18,7 @@ else
 									"utc_time" => date("c"),
 									"track" => $track,
 									"github_file_url" => "https://github.com/lesupremo/hng-task-1/blob/main/api.php",
-									"github_repo_url" => "",
+									"github_repo_url" => "https://github.com/lesupremo/hng-task-1",
 									"status_code" => 200,
 								);
 								
