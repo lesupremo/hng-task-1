@@ -15,7 +15,7 @@ else
 	$expected_response = array(
 									"slack_name" => $slack_name,
 									"current_day" => ucwords(date("l")),
-									"utc_time" => date("c"),
+									"utc_time" => gmdate("Y-m-d\TH:i:s\Z"),
 									"track" => $track,
 									"github_file_url" => "https://github.com/lesupremo/hng-task-1/blob/main/api.php",
 									"github_repo_url" => "https://github.com/lesupremo/hng-task-1",
